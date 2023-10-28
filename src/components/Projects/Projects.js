@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import ecomm from "../../Assets/Projects/ecomm.png";
 import socio from "../../Assets/Projects/socio.png";
-
+import blog from "../../Assets/Projects/blog.png";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -40,6 +40,18 @@ function Projects() {
               interactions. Whether you’re sharing posts, making new friends,
               or engaging with content, Sociopedia has it all.."
               ghLink="https://github.com/Sahilparyani1804/socialize"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="Blog Application"
+              description="A Full Stack Application , this platform is designed to help you
+              create and share your thoughts, experiences. Built using EJS
+              frontend framework and Express.js in backend, also includes
+              MONGODB database."
+              ghLink="https://github.com/Sahilparyani1804/blog1"
             />
           </Col>
         </Row>
