@@ -54,6 +54,16 @@ function Projects() {
               ghLink="https://github.com/Sahilparyani1804/blog1"
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="Credit Card Fraud Detection"
+              description="This model is designed to analyze transaction data and predict whether a transaction is fraudulent or legitimate.The
+              primary objective of this project is to create an accurate and efficient system that can detect and prevent credit
+              card fraud in real-time by analyzing transaction patterns and features.Algorithm used is Logistic regression."
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
