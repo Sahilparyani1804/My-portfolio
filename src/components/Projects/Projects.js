@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import ecomm from "../../Assets/Projects/ecomm.png";
 import socio from "../../Assets/Projects/socio.png";
 import blog from "../../Assets/Projects/blog.png";
+import credit from "../../Assets/Projects/credit.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -56,7 +57,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={blog}
+              imgPath={credit}
               isBlog={false}
               title="Credit Card Fraud Detection"
               description="This model is designed to analyze transaction data and predict whether a transaction is fraudulent or legitimate.The
